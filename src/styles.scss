@@ -1,1 +1,186 @@
-/* You can add global styles to this file, and also import other style files */
+.m-0 {
+  margin: 0 !important;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mr-3 {
+  margin-right: 30px;
+}
+
+.mr-4 {
+  margin-right: 40px;
+}
+
+.mr-5 {
+  margin-right: 50px;
+}
+
+.ml-1 {
+  margin-left: 10px !important;
+}
+
+.ml-2 {
+  margin-left: 20px !important;
+}
+
+.ml-3 {
+  margin-left: 30px !important;
+}
+.ml-4 {
+  margin-left: 40px !important;
+}
+
+.ml-5 {
+  margin-left: 50px !important;
+}
+
+.mt-1 {
+  margin-top: 10px !important;
+}
+
+.mt-2 {
+  margin-top: 20px !important;
+}
+
+.mt-3 {
+  margin-top: 30px !important;
+}
+.mt-4 {
+  margin-top: 40px !important;
+}
+
+.mt-5 {
+  margin-top: 50px !important;
+}
+
+.mb-1 {
+  margin-bottom: 10px !important;
+}
+
+.mb-2 {
+  margin-bottom: 20px !important;
+}
+
+.mb-3 {
+  margin-bottom: 30px !important;
+}
+.mb-4 {
+  margin-bottom: 40px !important;
+}
+
+.mb-5 {
+  margin-bottom: 50px !important;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.centralizer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+
+.text-muted {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.color-red {
+  color: red !important;
+}
+.color-green {
+  color: green !important;
+}
+
+// MATERIAL
+fieldset {
+  border: none;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-sidenav-container {
+  height: 100%;
+  background-size: cover;
+}
+
+mat-flat-button.mat-red,
+.mat-raised-button.mat-red,
+.mat-fab.mat-red,
+.mat-mini-fab.mat-red {
+  background: red;
+  color: white;
+}
+mat-flat-button.mat-green,
+.mat-raised-button.mat-green,
+.mat-fab.mat-green,
+.mat-mini-fab.mat-green {
+  background: green;
+  color: white;
+}
+
+.no-pad-form {
+  .mat-form-field-wrapper {
+    padding-bottom: 0 !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+}
+
+.mat-chip-list-wrapper {
+  min-height: 40px;
+}
+.content-container {
+  padding: 25px;
+  min-height: 600px;
+}
+.side-toggle{
+  position: absolute;
+  top: 0px;
+  left: 274px;
+  width: 44px;
+  z-index: 999;
+  border-radius: 0;
+  color: white;
+  height: 100%;
+  background: #036db7;
+}
+
+mat-sidenav-container {
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-container {
+    padding: 65px 0 0 0;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
